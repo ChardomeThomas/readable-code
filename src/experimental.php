@@ -56,11 +56,4 @@ function order_pizza_all()
     order_pizza('golden', 'students');
 }
 
-function make_Allhappy($do_it)
-{
-    if ($do_it) {
-        order_pizza_all();
-    }
-}
-
-make_Allhappy(true);
+order_pizza_all();
